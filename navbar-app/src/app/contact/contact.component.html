@@ -1,0 +1,11 @@
+<div class="main">
+    <h2>Contact Page</h2>
+    <p>Event binding</p>
+
+    <!-- Event Binding -->
+    <div class="main__binding">
+        <input type="text" name="name" #name (keyup)="addName(name.value)">
+        <h4>The name is {{name.value}}</h4>
+    </div>
+
+</div>
